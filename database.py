@@ -13,7 +13,7 @@ df['Data Entrega'] = pd.to_datetime(df['Data Entrega'], dayfirst=True, errors='c
 df['Data Pedido'] = pd.to_datetime(df['Data Pedido'], dayfirst=True, errors='coerce')
 
 # Formatando a coluna de "Valor Total"
-df['Valor Total'] = df['Valor Total'].apply(lambda x: f"R$ {x:,.2f}".replace(",","X").replace(".",",").replace(",","."))
+df['Valor Total'] = df['Valor Total'].apply(lambda x: f"R$ {x:,.2f}".replace(",","X").replace(".",",").replace("X","."))
 
 # Calculando atrasos de entrega
 df['Dias para Entrega'] = (df['Data Entrega'] - pd.Timestamp.today().normalize()).dt.days
