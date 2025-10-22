@@ -20,7 +20,7 @@ O projeto tem como objetivo **otimizar o acompanhamento de entregas** e **reduzi
 - [Python](https://www.python.org/)
 - [Streamlit](https://streamlit.io/)
 - [Pandas](https://pandas.pydata.org/)
-- [Plotly](https://plotly.com/python/) (opcional, se usar gráficos interativos)
+- [Plotly](https://plotly.com/python/) 
 
 ---
 
