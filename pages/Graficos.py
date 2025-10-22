@@ -23,7 +23,7 @@ fig2 = px.pie(
     hole = 0.4,
     title = "Situação dos Pedidos"
 )
-fig2.update_layout(legend_title_text = "Cobrado"))
+fig2.update_layout(legend_title_text = "Cobrado")
 
 col1, col2 = st.columns(2)
 
