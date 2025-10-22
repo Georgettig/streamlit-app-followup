@@ -41,7 +41,7 @@ fig3 = px.bar(
 df_fornecedores = df_filtrado.groupby("Fornecedor")["Pedido"].count().sort_values(ascending=False).reset_index()
 df_fornecedores.columns = ["Fornecedor", "Quantidade Pedidos"]
 fig4 = px.bar(
-    df_fornecedores,
+    df_fornecedores.head(10),
     x = "Fornecedor",
     y = "Quantidade Pedidos",
     title = "Quantidade de Pedidos por Fornecedor",
