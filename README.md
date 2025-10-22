@@ -20,7 +20,6 @@ O projeto tem como objetivo **otimizar o acompanhamento de entregas** e **reduzi
 - [Python](https://www.python.org/)
 - [Streamlit](https://streamlit.io/)
 - [Pandas](https://pandas.pydata.org/)
-- [smtplib / email](https://docs.python.org/3/library/smtplib.html) – para envio de e-mails
 - [Plotly](https://plotly.com/python/) (opcional, se usar gráficos interativos)
 
 ---
@@ -51,11 +50,9 @@ O projeto tem como objetivo **otimizar o acompanhamento de entregas** e **reduzi
 
 # 📬 Contato
 
-👤 Guilherme Georgetti Albuquerque Galvão
-💼 Engenheiro de Produção | Analista de Dados
-📧 guilherme.georgetti@unesp.br
-🌐 linkedin.com/in/guilherme-georgetti 
+👤 Guilherme Georgetti Albuquerque Galvão  
+💼 Engenheiro de Produção | Analista de Dados  
+📧 guilherme.georgetti@unesp.br  
+🌐 linkedin.com/in/guilherme-georgetti   
 
-
-## 🧩 Estrutura do Projeto
 
