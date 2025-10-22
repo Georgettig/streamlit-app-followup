@@ -53,6 +53,6 @@ O projeto tem como objetivo **otimizar o acompanhamento de entregas** e **reduzi
 👤 Guilherme Georgetti Albuquerque Galvão  
 💼 Engenheiro de Produção | Analista de Dados  
 📧 guilherme.georgetti@unesp.br  
-🌐 linkedin.com/in/guilherme-georgetti   
+🌐 [linkedin.com/in/guilherme-georgetti] 
 
 
