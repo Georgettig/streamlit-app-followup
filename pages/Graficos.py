@@ -9,8 +9,7 @@ fig1 = px.pie(
     names = ["Atrasados", "Dentro do Prazo"],
     values = [len(df_atrasados), len(df_dentro)],
     hole = 0.4,
-    text_info = 
-    title = "Status dos Pedidos"
+    titte = "Status dos Pedidos"
 )
 fig1.update_layout(legend_title_text = "Status")
 
