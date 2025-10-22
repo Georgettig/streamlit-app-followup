@@ -32,13 +32,21 @@ df_compradores.columns = ["Comprador", "Quantidade Pedidos"]
 fig3 = px.bar(
     df_compradores,
     x = "Comprador",
-    y = "Nº de Pedidos",
+    y = "Quantidade Pedidos",
     title = "Quantidade de Pedidos por Comprador",
     color_continuous_scale = "Blues"
 )
 
 
-#df_fornecedores = df_filtrado.groupby("Fornecedor")["Pedido"].count().sort_values(ascending=False).reset_index()
+df_fornecedores = df_filtrado.groupby("Fornecedor")["Pedido"].count().sort_values(ascending=False).reset_index()
+df_fornecedores.colimns = ["Fornecedor", "Quantidade Pedidos"]
+fig4 = px.bar(
+    df_fornecedores,
+    x = "Fornecedor",
+    y = "Quantidade Pedidos",
+    title = "Quantidade de Pedidos por Fornecedor",
+    color_continuous_scale = "Blues"
+)
 
 col1, col2 = st.columns(2)
 
