@@ -87,6 +87,4 @@ if st.button("Enviar e-mail"):
         df_salvar = df_filtrado.copy()
     
     df_salvar.to_excel(arquivo, index=False)
-    st.succes("E-mail enviado com sucesso!")
-else:
-    st.error("E-mail não enviado")
+    st.success("E-mail enviado com sucesso!")
